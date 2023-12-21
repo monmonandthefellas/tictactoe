@@ -1,0 +1,45 @@
+
+body {
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  font-size: 30px;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.cell {
+  border: 2px solid white;
+  width: 2em;
+  height: 2em;
+  font-size: 70px;
+  line-height: 2em;
+  //padding-top: 10px;
+}
+
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#resetButton {
+  display: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin: 0 auto;
+  justify-content: center;
+}
